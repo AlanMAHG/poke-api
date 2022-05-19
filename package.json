@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "json-server": "^0.17.0"
+  },
+  "name": "pokeapi",
+  "description": "hey Team",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rick": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlanMAHG/poke-api.git"
+  },
+  "author": "Alan Granados",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlanMAHG/poke-api/issues"
+  },
+  "homepage": "https://github.com/AlanMAHG/poke-api#readme"
+}
