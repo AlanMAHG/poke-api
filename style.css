@@ -1,0 +1,262 @@
+.row{
+      
+    padding: 3rem;
+    column-gap: 4rem;
+    row-gap: 3rem;
+    justify-content: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    font-family: 'Patrick Hand', cursive;
+    background-color: #e8f2f3;
+    /* opacity: 0.2; */
+    background-image:  linear-gradient(135deg, #fdfdfd 25%, transparent 25%), linear-gradient(225deg, #fdfdfd 25%, transparent 25%), linear-gradient(45deg, #fdfdfd 25%, transparent 25%), linear-gradient(315deg, #fdfdfd 25%, #e8f2f3 25%);
+    background-position:  10px 0, 10px 0, 0 0, 0 0;
+    background-size: 20px 20px;
+    background-repeat: repeat;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.example {
+    padding-top: 2rem;
+}
+
+.title {
+    color: white;
+    font: bold;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #0b7dda;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  
+
+.card-body-n{
+    background-color: lightgoldenrodyellow;
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 26rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body-g{
+    background-color: rgb(17, 209, 30);
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 26rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body-f{
+    background-color: orange;
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 26rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body-p{
+    background-color: plum;
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 26rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body-w{
+    background-color: rgb(0, 191, 255);
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 26rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body-b{
+    background-color: greenyellow;
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 26rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body-e{
+    background-color: yellow;
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 26rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body-gr{
+    background-color: rgb(169, 91, 91);
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 26rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body-dr{
+    background-color: aqua;
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 26rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body-fa{
+    background-color: lightpink;
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 26rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body-fig{
+    background-color: rgb(231, 41, 41);
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 26rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body-psy{
+    background-color: wheat;
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 26rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body-ro{
+    background-color: grey;
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 26rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body-gh{
+    background-color: lightskyblue;
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 26rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-body-ice{
+    background-color: aquamarine;
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    width: 26rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-image img{
+    max-width: 10rem;
+    
+}
+
+.card-info {
+    padding: 5%;
+    width: 100%;
+}
+
+.button-mas {
+    background-color: rgb(87, 87, 87); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+* {box-sizing: border-box}
+
+.container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 50px;
+  }
+  
+.stats {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  
+  .hp {width: 90%; background-color: #04AA6D;}
+  .at {width: 80%; background-color: #2196F3;}
+  .de {width: 65%; background-color: #f44336;}
+  .ex {width: 60%; background-color: #808080;}
+
